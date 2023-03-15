@@ -23,7 +23,7 @@ if opcaoPagamento == 1:
     precoAtualizado = produtoPreco - (produtoPreco*0.10)
     print("O preço atual é: R${}".format(precoAtualizado))
 elif opcaoPagamento == 2:
-    precoAtualizado = produtoPreco - (produtoPreco*0.5)
+    precoAtualizado = produtoPreco - (produtoPreco*0.05)
     print("O preço atual é: R${}".format(precoAtualizado))
 elif opcaoPagamento == 3:
     precoAtualizado = produtoPreco
